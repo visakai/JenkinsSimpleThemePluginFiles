@@ -1,5 +1,6 @@
 (function() {
   alert("Hi from closure");
-  $$("form[name='login']").insert(  "<p>mangoes</p>" );
+  var content = $$("form[name='login']").innerHTML;
+  alert(content);
 })();
 
