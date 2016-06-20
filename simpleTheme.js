@@ -1,2 +1,2 @@
 alert("Hi from rawgit");
-$$("form[name='login']").hide();
+$$("form[name='login']").insert(  "<p>mangoes</p>" );
