@@ -1,3 +1,10 @@
 body {
 	background-color: yellow;
 }
+
+form[name="login"]::before {
+    content: "Welcome to BMS Jenkins instance!";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
