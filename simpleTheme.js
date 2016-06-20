@@ -1,2 +1,2 @@
 alert("Hi from rawgit");
-document.forms["login"].innerHTML = "Hello!";
+$$("form[name='login']").hide();
