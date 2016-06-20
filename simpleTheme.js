@@ -1,2 +1,7 @@
-alert("Hi from rawgit");
-$$("form[name='login']").insert(  "<p>mangoes</p>" );
+(function() {
+  alert("Hi from closure");
+})();
+
+
+
+//$$("form[name='login']").insert(  "<p>mangoes</p>" );
