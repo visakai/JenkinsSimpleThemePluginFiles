@@ -3,4 +3,5 @@ form[name="login"]::before {
     background-color: #cdf0f2;
     font-weight: bold;
 	margin: 15px;
+	padding: 20px;
 }
