@@ -3,7 +3,7 @@ body {
 }
 
 form[name="login"]::before {
-    content: "Welcome to BMS Jenkins instance!";
+    content: "Welcome to BMS Jenkins instance! For help, questions, or onboarding, you can create a case here: https://engit.cisco.com/case";
     background-color: yellow;
     color: red;
     font-weight: bold;
